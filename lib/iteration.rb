@@ -12,7 +12,7 @@ def join_ingredients(src)
     element_index = 0 
     new_array = []
     while element_index < src[row_index].count do 
-      new_array << "I love #{src[row_index][element_index]} and #{src[row_index][element_index + 1]} on py pizza"
+      new_array << "I love #{src[row_index][0]} and #{src[row_index][1]} on py pizza"
       element_index += 1 
     end
     row_index += 1 
